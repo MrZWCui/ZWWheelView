@@ -123,7 +123,7 @@
 - (UIPageControl *)pageControl {
     if (!_pageControl) {
         _pageControl = [[UIPageControl alloc] init];
-        _pageControl.frame = CGRectMake(0, 50 + SCROLL_HEIGHT - 30, SCROLL_WIDTH, 30);
+        _pageControl.frame = CGRectMake(0, SCROLL_HEIGHT - 30, SCROLL_WIDTH, 30);
         //设置总页数
         _pageControl.numberOfPages = _imageItems.count;
         //设置背景色
