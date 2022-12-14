@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ZWWheelView : UIView
 
-@property (nonatomic, strong) NSArray *imageItem;
+@property (nonatomic, strong) NSArray *imageItems;
 
 @end
 

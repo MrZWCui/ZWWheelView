@@ -28,7 +28,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     ZWWheelView *view = [[ZWWheelView alloc] initWithFrame:CGRectMake(0, [self getStatusBarHight], SCROLL_WIDTH, SCROLL_HEIGHT)];
-    view.imageItem = [NSArray arrayWithObjects:img(@"0.jpg"), img(@"1.jpg"), img(@"2.jpg"), img(@"4.jpg"), nil];
+    view.imageItems = [NSArray arrayWithObjects:img(@"0.jpg"), img(@"1.jpg"), img(@"2.jpg"), img(@"4.jpg"), nil];
     [self.view addSubview:view];
 }
 
